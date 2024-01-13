@@ -1,0 +1,42 @@
+\startlandscape
+\begin{longtable}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\caption{Your Caption Here}\label{TablaMetab} \\ % Caption and label
+
+\hline
+Age & Group & \multicolumn{2}{c|}{Total Cholesterol} & \multicolumn{2}{c|}{Triglycerides} & \multicolumn{2}{c|}{HDL} & \multicolumn{2}{c|}{LDL} & \multicolumn{2}{c|}{Insuline} & \multicolumn{2}{c|}{Glucose} \\ \hline
+\endfirsthead % Header for the first page
+
+\multicolumn{14}{c}%
+{{\bfseries Table \thetable\ Continued from previous page}} \\
+\hline
+Age & Group & \multicolumn{2}{c|}{Total Cholesterol} & \multicolumn{2}{c|}{Triglycerides} & \multicolumn{2}{c|}{HDL} & \multicolumn{2}{c|}{LDL} & \multicolumn{2}{c|}{Insuline} & \multicolumn{2}{c|}{Glucose} \\ \hline
+\endhead % Header for the remaining pages
+
+% Repeat the headers for the last foot (optional)
+\hline
+\endfoot
+ 30 &    CR &                         176 &                    191.0 &                     143 &                296.0 &            43 &       44.0 &         105.0 &       87.0 &              15.3 & 21.9 &                91 &           84.0 \\
+  34 &    CR &                         244 &                    214.0 &                     236 &                157.0 &            51 &       56.0 &         146.0 &      126.6 &               9.9 & 11.8 &                87 &           95.0 \\
+  67 &    CR &                         204 &                    203.0 &                     174 &                137.0 &            38 &       43.0 &         132.0 &      132.0 &              10.0 & 11.6 &               106 &           96.0 \\
+  43 &    CR &                         169 &                    207.0 &                     133 &                112.0 &            49 &       64.0 &          93.0 &      121.0 &              13.0 & 8.8 &                85 &           78.0 \\
+  53 &    CR &                         158 &                    110.0 &                     428 &                317.0 &            37 &       37.0 &         121.0 &       99.0 &              43.2 &                47.8 &               108 &          112.0 \\
+  48 &    CR &                         160 &                    137.0 &                     212 &                334.0 &            35 &       30.0 &          82.0 &       41.0 &              15.4 & 18.7 &               102 &          103.0 \\
+  70 &    CR &                         149 &                    128.0 &                      77 &                 84.0 &            44 &       29.0 &          89.0 &       83.0 &              22.1 & 12.5 &               103 &          101.0 \\
+  58 &    CR &                         182 &                    184.0 &                     241 &                228.0 &            38 &       34.0 &          96.0 &      104.0 &              10.0 & 11.9 &               106 &          113.0 \\
+  36 &    CR &                         188 &                    202.0 &                      82 &                 68.0 &            67 &       82.0 &         105.0 &      106.0 &               5.4 & 4.7 &                87 &           92.0 \\
+  49 &    CR &                         163 &                    171.0 &                      81 &                 90.0 &            60 &       58.0 &          86.0 &       95.0 &              15.3 & 18.1 &                96 &           91.0 \\
+  65 &    CR &                         222 &                    188.0 &                     166 &                181.0 &            56 &       52.0 &         133.0 &       99.0 &               6.5 & 11.1 &                88 &           91.0 \\
+  43 &    CR &                         204 &                    168.0 &                     356 &                179.0 &            22 &       26.0 &         111.0 &      107.0 &              67.8 & 17.3 &               102 &           85.0 \\
+  60 &    CR &                         241 &                      ND &                     180 &                  ND &            60 &        NaN &         145.0 &        NaN &              11.6 &                 ND &                81 &            ND \\
+  47 &    CR &                         244 &                    280.0 &                      76 &                127.0 &            56 &       65.0 &         172.8 &      189.0 &               7.8 &                 ND &                81 &           89.8 \\
+  60 &    CR &                         230 &                    188.0 &                     360 &                404.0 &            43 &       33.0 &         115.0 &      155.0 &              13.6 & 15.4 &                91 &           75.0 \\
+  52 &    CR &                         243 &                    211.0 &                     187 &                  ND &            67 &        NaN &         139.0 &        NaN &               9.3 &                 ND &                96 &           96.0 \\
+  49 &   TRF &                         214 &                    167.0 &                     230 &                138.0 &            40 &       46.0 &         128.0 &       93.0 &              14.0 & 7.6 &                89 &           98.0 \\
+  62 &   TRF &                         211 &                    241.0 &                     150 &                114.0 &            46 &       48.0 &         135.0 &      170.0 &              10.8 & 14.1 &                99 &          106.0 \\
+  55 &   TRF &                         175 &                    183.0 &                     104 &                 87.0 &            54 &       60.0 &         100.0 &      105.0 &              10.1 & 9.2 &                92 &           89.0 \\
+  48 &   TRF &                         192 &                    253.0 &                     132 &                135.0 &            48 &       40.0 &         117.6 &      185.0 &              15.3 &                  22 &               106 &          104.0 \\
+  65 &   TRF &                         192 &                    172.0 &                     235 &                122.0 &            53 &       57.0 &          92.0 &       91.0 &               NaN & 13.4 &                94 &           91.0\footnotemark \\
+
+\end{longtable}
+\footnotesize{\textsuperscript{1} This is a table footnote.}
+\finishlandscape
